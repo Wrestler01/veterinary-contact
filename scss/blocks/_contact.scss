@@ -1,0 +1,110 @@
+.contact {
+    padding: 0;
+    margin: 0;
+    max-width: 1440px;
+
+    &__container {
+        padding: 0;
+        max-width: 1255px;
+        margin: 11px 8px 177px 177px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 487px 548px;
+        background-image: url(/images/big-dog.png);
+    }
+
+    &__title {
+        padding: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin: 111px 0 27px 0;
+        max-width: 321px;
+    }
+
+    &__text {
+        padding: 0;
+        margin: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        margin-bottom: 117px;
+        max-width: 447px;
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 131px;
+        margin-right: 118px;
+    }
+
+    &__item-1 {
+        position: relative;
+        max-width: 153px;
+
+        &::before {
+            top: -85px;
+            right: 0;
+            bottom: 0;
+            left: 15px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url("/images/location.svg");
+        }
+    }
+
+    &__item-2 {
+        position: relative;
+        max-width: 153px;
+
+        &::before {
+            top: -85px;
+            right: 0;
+            bottom: 0;
+            left: 15px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url("/images/calendar.svg");
+        }
+    }
+
+    &__item-3 {
+        position: relative;
+        max-width: 153px;
+
+        &::before {
+            top: -85px;
+            right: 0;
+            bottom: 0;
+            left: 15px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url("/images/communication.svg");
+        }
+    }
+
+    &__link {
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        text-decoration: none;
+    }
+}
